@@ -1,0 +1,14 @@
+C:\Users\Jeruzael\source\repos\ArrayManipulation\bin\Debug\ArrayManipulation.exe.config
+C:\Users\Jeruzael\source\repos\ArrayManipulation\bin\Debug\ArrayManipulation.exe
+C:\Users\Jeruzael\source\repos\ArrayManipulation\bin\Debug\ArrayManipulation.pdb
+C:\Users\Jeruzael\source\repos\ArrayManipulation\obj\Debug\ArrayManipulation.csprojAssemblyReference.cache
+C:\Users\Jeruzael\source\repos\ArrayManipulation\obj\Debug\ArrayManipulation.Form1.resources
+C:\Users\Jeruzael\source\repos\ArrayManipulation\obj\Debug\ArrayManipulation.Properties.Resources.resources
+C:\Users\Jeruzael\source\repos\ArrayManipulation\obj\Debug\ArrayManipulation.csproj.GenerateResource.cache
+C:\Users\Jeruzael\source\repos\ArrayManipulation\obj\Debug\ArrayManipulation.csproj.CoreCompileInputs.cache
+C:\Users\Jeruzael\source\repos\ArrayManipulation\obj\Debug\ArrayManipulation.exe
+C:\Users\Jeruzael\source\repos\ArrayManipulation\obj\Debug\ArrayManipulation.pdb
+C:\Users\Jeruzael\source\repos\ArrayManipulation\bin\Debug\ArrayManipulation.exe.manifest
+C:\Users\Jeruzael\source\repos\ArrayManipulation\bin\Debug\ArrayManipulation.application
+C:\Users\Jeruzael\source\repos\ArrayManipulation\obj\Debug\ArrayManipulation.exe.manifest
+C:\Users\Jeruzael\source\repos\ArrayManipulation\obj\Debug\ArrayManipulation.application

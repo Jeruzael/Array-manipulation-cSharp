@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ArrayManipulation.exe" version="1.0.0.0" publicKeyToken="7bbfdf13519204c1" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ArrayManipulation" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ArrayManipulation.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ArrayManipulation.exe" size="12232">
+      <assemblyIdentity name="ArrayManipulation" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>8GW3YhcZZoLNCLOK/eOaVyLigkyBnukqwZssprqn1Nw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ArrayManipulation.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ERUZAERU\Jeruzael" issuerKeyHash="af4e69ca35cd184aafacea29e63aa4af24b0506d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>vKZsYjcEVjNeWk94m5L3I20T3Jsrifq9EJxoP+4qnFg=</DigestValue></Reference></SignedInfo><SignatureValue>VRHw+ffwx7ioP0wDS+I7N2j/Js3YYP+TzcNYN424uhzv81pt9UjuPVUqq4qrfRPHU++DXFgS8UVqBjWbVjlfIz8CkwGAnzG6zBJNWqSit/lkbILZunvkcQ0eB1O5O/nBSyXCWPWWW119pK+U1xkjkZiUvaizjf3icSlb2EY6zYw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>w9frSQv9CQrH2bqD73KAVdcMzg5FdaWGsCuFUdhlshr1q7zikb5JXDI7DAVgeJY10glTJYJKUP+pQK/t18QOD1mR4JPjVll5iO1zIHAbKFWsbAy8lPg0VQsWH1LBuB/Oco4tNa7GFI0JN9bY5ocTyxvFBl6LWqIg9OjNJv1Z2ZE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="589c2aee3f689c10bdfa892b9bdc136d23f7929b784f5a5e33560437626ca6bc" Description="" Url=""><as:assemblyIdentity name="ArrayManipulation.exe" version="1.0.0.0" publicKeyToken="7bbfdf13519204c1" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ERUZAERU\Jeruzael</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Zw4ivlOmmmr2WYYTJ9wgNJos9fSYqsaALFCOQCIqXTQ=</DigestValue></Reference></SignedInfo><SignatureValue>v0HRwOsLdrJKy/rHLcnZGVxlXaqWTw4b0jUIcT2C5Nei+LyS9zA9XF7SVSRKzRDeGYM9RmyKGe2IeY/uPxnTXGF8YxgeG61OYX9lLXdOgBLgzTASeNNG4opzHkX7T0tbT9BVYcFzFgZjwA6PFesokF7dlk0mMeqCSbaqpqgfSnU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>w9frSQv9CQrH2bqD73KAVdcMzg5FdaWGsCuFUdhlshr1q7zikb5JXDI7DAVgeJY10glTJYJKUP+pQK/t18QOD1mR4JPjVll5iO1zIHAbKFWsbAy8lPg0VQsWH1LBuB/Oco4tNa7GFI0JN9bY5ocTyxvFBl6LWqIg9OjNJv1Z2ZE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQHiMa2UaYuJlFKnJPaYX/MDANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIARQBSAFUAWgBBAEUAUgBVAFwASgBlAHIAdQB6AGEAZQBsMB4XDTIxMDMxNzA2MzA0MloXDTIyMDMxNzEyMzA0MlowLTErMCkGA1UEAx4iAEUAUgBVAFoAQQBFAFIAVQBcAEoAZQByAHUAegBhAGUAbDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAw9frSQv9CQrH2bqD73KAVdcMzg5FdaWGsCuFUdhlshr1q7zikb5JXDI7DAVgeJY10glTJYJKUP+pQK/t18QOD1mR4JPjVll5iO1zIHAbKFWsbAy8lPg0VQsWH1LBuB/Oco4tNa7GFI0JN9bY5ocTyxvFBl6LWqIg9OjNJv1Z2ZECAwEAATANBgkqhkiG9w0BAQsFAAOBgQBoXG9BegqtMwHKcfSYwAMxoT3qec5UZO8egeo5u3r23tE2KbgjbrOAVm4FZHsUlG5eXToJdadwbnkm12snAFhi2z0domOpgXXuV10d46l5ivmMF8J77XGzyWfPH65W5k8c34jqvvs9c6PGcmv/fhw+osg+l5Arvgq+5vD0M/a81w==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
